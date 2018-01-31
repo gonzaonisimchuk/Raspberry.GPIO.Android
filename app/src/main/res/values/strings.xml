@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Raspberry.GPIO.Android</string>
+    <string name="loading">Conectando...</string>
 </resources>

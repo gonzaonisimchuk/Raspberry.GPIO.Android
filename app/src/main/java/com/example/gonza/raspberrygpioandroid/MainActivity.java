@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     TextView editText = (TextView) findViewById(R.id.labelPrincipal);
                     //String aaa = editText.getText().toString();
-                    if (editText.getText().toString().equalsIgnoreCase("Conectando...")) {
+                    if (editText.getText().toString().equalsIgnoreCase(getString(R.string.loading))) {
                          editText.setText(testService);
                     }
                 }
